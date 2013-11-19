@@ -1,5 +1,5 @@
 {
 	"repo_name": "myproject-vm",
-	"project_target": "myproject",
+	"project_name": "myproject",
 	"box_name": "precise64"
 }

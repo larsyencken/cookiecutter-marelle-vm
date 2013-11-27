@@ -7,4 +7,4 @@ fi
 
 curl -s "https://raw.github.com/larsyencken/marelle/master/bootstrap_global.sh" | bash
 
-sudo -u vagrant -H bash -c "cd /vagrant && marelle meet {{project_name}}"
+sudo -u vagrant -H bash -c "cd /vagrant && marelle meet {{cookiecutter.project_name}}"

@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant::Config.run do |config|
-  config.vm.box = "{{image_name}}"
-  config.vm.box_url = "http://files.vagrantup.com/{{image_name}}.box"
+  config.vm.box = "{{cookiecutter.box_name}}"
+  config.vm.box_url = "http://files.vagrantup.com/{{cookiecutter.box_name}}.box"
   config.vm.provision :shell, :path => "setup.sh"
   config.vm.network :hostonly, "10.11.12.13"
 end
